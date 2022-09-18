@@ -17,10 +17,10 @@ li {
     display: flex;
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 20px;
     padding: 8px;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-top: 16px;
     background-color:darkred
 }
 
@@ -147,4 +147,13 @@ li {
 .links {
     text-decoration: none;
     color: #eaeaea;
+}
+
+img    {
+    border-radius: 50%;
+}
+
+.imgpos {
+    position:initial;
+    top: 400px;
 }
